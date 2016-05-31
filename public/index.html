@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Mark Alan Chapman - Web Designer!</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+  </head>
+  <body ng-app="portfolio">
+
+    <a ui-sref="home">Home</a>
+    <a ui-sref="about">About Me</a>
+    <a ui-sref="work">Works</a>
+
+    <ui-view></ui-view>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.18/angular-ui-router.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/components/home/homeCtrl.js"></script>
+    <script src="app/components/about/aboutCtrl.js"></script>
+
+
+  </body>
+</html>
