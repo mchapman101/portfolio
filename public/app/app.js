@@ -10,7 +10,7 @@ angular.module("portfolio", ['ui.router'])
     .state('about', {
       url: '/about',
       templateUrl: 'app/components/about/about.html',
-      controller: 'aboutMeCtrl'
+      controller: 'aboutCtrl'
     })
     .state('work', {
       url: '/work',
